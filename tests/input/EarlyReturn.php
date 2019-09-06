@@ -31,7 +31,7 @@ class EarlyReturn
     public function baz() : string
     {
         if ($number > 0) {
-            return 'Number is grater then 0';
+            return 'Number is greater then 0';
         } else {
             exit;
         }
